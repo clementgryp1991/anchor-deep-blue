@@ -53,8 +53,8 @@ const WhyAncSection = () => {
             <div key={i} className="bg-gray-50 border border-gray-200 rounded-lg p-8 group hover:border-primary transition-colors">
               <div className="border-t-2 border-primary w-12 mb-6" />
               <div className="text-primary mb-4">{r.icon}</div>
-              <h3 className="text-xl font-semibold text-foreground mb-3">{r.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{r.description}</p>
+              <h3 className="text-xl font-semibold mb-3">{r.title}</h3>
+              <p className="text-sm leading-relaxed opacity-70">{r.description}</p>
             </div>
           ))}
         </div>
