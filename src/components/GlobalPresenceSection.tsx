@@ -1,7 +1,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const stats = [
-  { value: "13", label: "Active Markets" },
+  { value: "14", label: "Active Markets" },
   { value: "5", label: "Continents" },
   { value: "5", label: "Product Categories" },
 ];
