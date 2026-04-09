@@ -34,7 +34,7 @@ const WhyAncSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="why-anc" className="py-24 md:py-32 px-6 bg-secondary/30">
+    <section id="why-anc" className="py-24 md:py-32 px-6 bg-white text-gray-900">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto transition-all duration-1000 ${
@@ -42,17 +42,17 @@ const WhyAncSection = () => {
         }`}
       >
         <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-accent mb-4">Why ANC</p>
-          <h2 className="text-3xl md:text-5xl font-semibold text-foreground">
-            Your Competitive Edge
+          <p className="text-sm tracking-widest uppercase text-primary mb-4">Why ANC</p>
+          <h2 className="text-3xl md:text-5xl font-semibold">
+            Our Competitive Edge
           </h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {reasons.map((r, i) => (
-            <div key={i} className="bg-card border border-border rounded-lg p-8 group hover:border-accent transition-colors">
-              <div className="border-t-2 border-accent w-12 mb-6" />
-              <div className="text-accent mb-4">{r.icon}</div>
+            <div key={i} className="bg-gray-50 border border-gray-200 rounded-lg p-8 group hover:border-primary transition-colors">
+              <div className="border-t-2 border-primary w-12 mb-6" />
+              <div className="text-primary mb-4">{r.icon}</div>
               <h3 className="text-xl font-semibold text-foreground mb-3">{r.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{r.description}</p>
             </div>

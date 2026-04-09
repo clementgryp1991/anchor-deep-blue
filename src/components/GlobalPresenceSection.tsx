@@ -7,11 +7,11 @@ const stats = [
 ];
 
 const regions = [
-  { name: "Europe", countries: "Belgium, France, UK, Germany" },
-  { name: "Middle East", countries: "UAE, Saudi Arabia, Iraq" },
-  { name: "Africa", countries: "Ivory Coast, Senegal, Cameroon" },
-  { name: "Asia", countries: "Pakistan, Indonesia" },
-  { name: "Americas", countries: "Dominican Republic" },
+  { name: "Europe", countries: "Belgium, Romania" },
+  { name: "Middle East", countries: "UAE" },
+  { name: "Africa", countries: "South Africa, Zimbabwe, Djibouti, Ethiopia, Zambia" },
+  { name: "Asia", countries: "Pakistan" },
+  { name: "Americas", countries: "USA, Mexico, Brazil, Paraguay" },
 ];
 
 const GlobalPresenceSection = () => {
