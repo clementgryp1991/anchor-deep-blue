@@ -2,18 +2,18 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const products = [
   {
-    title: "Nicotine Pouches",
-    brand: "Beat",
-    description: "Tobacco-free nicotine pouches designed for the modern consumer. Premium quality, competitive pricing.",
-    specs: "8 flavors · 3–16mg nicotine range",
-    features: ["Swedish manufacturing standards", "EU compliant", "White-label capability"],
+    title: "Nicotine & Caffeine Pouches",
+    brand: "Multiple Brands",
+    description: "Multiple flavors with nicotine strength on demand. Market-validated development with exceptional flavor profiles and quality ingredients.",
+    specs: "Multiple flavors · Nicotine strength on demand",
+    features: ["Market-validated development", "Exceptional flavor profiles and quality ingredients", "EU compliant", "Private label capability"],
   },
   {
     title: "Cigarettes",
     brand: "Multiple Brands",
     description: "Comprehensive cigarette portfolio across multiple price segments. Flexible volumes and private label capability.",
-    specs: "King Size · 100's · Slim formats",
-    features: ["Direct factory sourcing", "Flexible MOQ", "Private label available"],
+    specs: "King Size · 100's",
+    features: ["Direct factory sourcing", "Flexible MOQ", "Private label capability"],
   },
 ];
 
