@@ -100,7 +100,6 @@ const ProductsSection = () => {
                   style={{ color: 'hsl(var(--section-fg))' }}
                 >
                   Request Pricing →
-                  <div className="w-24 h-px mt-6 absolute" style={{ backgroundColor: 'hsl(var(--section-fg))' }} />
                 </a>
                 <div className="w-24 h-px mt-2" style={{ backgroundColor: 'hsl(var(--section-fg))' }} />
               </div>
