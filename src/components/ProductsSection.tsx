@@ -9,7 +9,7 @@ const products = [
     features: [
       "Market-validated development — tested and refined against real consumer demand",
       "Responsibly sourced nicotine, no harmful additives",
-      "Multiple strengths and formats — dry, wet, zipper bag",
+      "Multiple strengths and formats — dry, wet, cans, zipper bags",
       "Private label capability available on demand",
     ],
   },
