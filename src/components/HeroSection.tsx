@@ -16,7 +16,7 @@ const HeroSection = () => {
           playsInline
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background/80" />
       </div>
 
       {/* Content */}
