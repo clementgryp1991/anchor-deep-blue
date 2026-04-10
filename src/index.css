@@ -22,7 +22,7 @@
     --secondary-foreground: 210 40% 98%;
 
     --muted: 216 30% 18%;
-    --muted-foreground: 215 20% 72%;
+    --muted-foreground: 215 15% 78%;
 
     --accent: 210 60% 24%;
     --accent-foreground: 210 40% 98%;
@@ -49,9 +49,10 @@
   .section-light {
     --section-bg: 40 33% 97%;
     --section-fg: 216 54% 9%;
-    --section-muted-fg: 216 20% 40%;
+    --section-muted-fg: 216 20% 35%;
     --section-accent: 210 60% 24%;
-    --section-border: 220 13% 88%;
+    --section-border: 220 13% 85%;
+    --section-card-bg: 0 0% 100%;
     background-color: hsl(var(--section-bg));
     color: hsl(var(--section-fg));
   }
@@ -59,13 +60,23 @@
   .section-light h2,
   .section-light h3,
   .section-light h4,
-  .section-light span {
+  .section-light span,
+  .section-light .text-foreground {
     color: hsl(var(--section-fg));
   }
 
   .section-light p,
   .section-light li {
     color: hsl(var(--section-muted-fg));
+  }
+
+  .section-light .text-muted-foreground {
+    color: hsl(var(--section-muted-fg));
+  }
+
+  .section-light .bg-card {
+    background-color: hsl(var(--section-card-bg));
+    border-color: hsl(var(--section-border));
   }
 }
 
