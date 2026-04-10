@@ -1,19 +1,22 @@
+import heroShipVideo from "@/assets/hero-ship-video.mp4.asset.json";
 import heroShip from "@/assets/hero-ship.jpg";
 import ancLogoWhite from "@/assets/anc-logo-white.png";
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0">
-        <img
-          src={heroShip}
-          alt="Global cargo ship at sea"
+        <video
+          src={heroShipVideo.url}
+          poster={heroShip}
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
-          width={1920}
-          height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
       </div>
 
       {/* Content */}
