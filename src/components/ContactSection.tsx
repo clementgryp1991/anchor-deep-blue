@@ -26,8 +26,8 @@ const ContactSection = () => {
       >
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-8 h-px bg-accent" />
-            <p className="text-sm tracking-widest uppercase text-accent">Get In Touch</p>
+            <div className="w-8 h-px border-white bg-white text-white" />
+            <p className="text-sm tracking-widest uppercase bg-black/0 text-white">Get In Touch</p>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             Let's Explore Opportunities
@@ -39,7 +39,7 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
           {/* Contact info */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-white bg-white/0">
             <div className="space-y-3">
               <a
                 href="tel:+32477410464"
