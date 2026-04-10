@@ -57,7 +57,7 @@ const ProductsSection = () => {
           {products.map((p, i) => (
             <div key={i} className="bg-card border border-border rounded-lg overflow-hidden">
               {/* Dark header */}
-              <div className="bg-background px-8 pt-8 pb-6">
+              <div className="bg-background px-8 pt-8 pb-6 text-white border-white">
                 <p className="text-xs tracking-widest uppercase mb-3 text-[#f9f6f6] bg-black/0">
                   Product {p.number}
                 </p>
