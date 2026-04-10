@@ -1,10 +1,10 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const steps = [
-  { label: "Manufacturer", sub: "Direct sourcing" },
-  { label: "ANC Global", sub: "Trading & logistics" },
-  { label: "Distributor", sub: "Market activation" },
-  { label: "Retail", sub: "End consumer" },
+  { label: "Manufacturer", sub: "Production Partner" },
+  { label: "ANC Global", sub: "Deal Originator" },
+  { label: "Distributor", sub: "Market Operator" },
+  { label: "Retail", sub: "End Market" },
 ];
 
 const bullets = [
