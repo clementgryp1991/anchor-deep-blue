@@ -26,8 +26,8 @@ const SupplyChainSection = () => {
       >
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-8 h-px bg-accent" />
-            <p className="text-sm tracking-widest uppercase text-accent">How We Trade</p>
+            <div className="w-8 h-px bg-white text-white border-white" />
+            <p className="text-sm tracking-widest uppercase text-white bg-black/0">How We Trade</p>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             End-to-End Supply Chain
