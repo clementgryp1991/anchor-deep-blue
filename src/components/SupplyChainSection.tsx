@@ -42,8 +42,8 @@ const SupplyChainSection = () => {
           {steps.map((step, i) => (
             <div key={i} className="flex items-center gap-6">
               <div className="text-center min-w-[160px]">
-                <div className="w-20 h-20 rounded-full border-2 border-accent flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-foreground">{i + 1}</span>
+                <div className={`w-20 h-20 rounded-full border-2 flex items-center justify-center mx-auto mb-4 ${i === 1 ? 'bg-white border-white' : 'border-accent'}`}>
+                  <span className={`text-2xl font-bold ${i === 1 ? 'text-[hsl(220,60%,20%)]' : 'text-foreground'}`}>{i + 1}</span>
                 </div>
                 <h4 className="text-base font-semibold text-foreground">{step.label}</h4>
                 <p className="text-sm text-muted-foreground">{step.sub}</p>
