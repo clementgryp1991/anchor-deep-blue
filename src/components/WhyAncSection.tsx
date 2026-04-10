@@ -52,7 +52,7 @@ const WhyAncSection = () => {
           {reasons.map((r, i) => (
             <div key={i} className="bg-card border border-border rounded-lg p-8 group hover:border-accent transition-colors">
               <div className="border-t-2 border-accent w-12 mb-6" />
-              <div className="text-accent mb-4">{r.icon}</div>
+              <div className="text-foreground/80 mb-4">{r.icon}</div>
               <h3 className="text-xl font-semibold text-foreground mb-3">{r.title}</h3>
               <p className="text-sm leading-relaxed text-muted-foreground">{r.description}</p>
             </div>
