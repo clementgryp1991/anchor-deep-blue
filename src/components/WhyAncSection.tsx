@@ -41,11 +41,17 @@ const WhyAncSection = () => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-foreground/60 mb-4">Why ANC</p>
-          <h2 className="text-3xl md:text-5xl font-semibold text-foreground">
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-8 h-px bg-accent" />
+            <p className="text-sm tracking-widest uppercase text-accent">Why ANC</p>
+          </div>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             Our Competitive Edge
           </h2>
+          <p className="text-muted-foreground text-lg max-w-xl">
+            What sets us apart in international tobacco and nicotine trading.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

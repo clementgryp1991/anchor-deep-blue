@@ -24,11 +24,17 @@ const ContactSection = () => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-foreground/60 mb-4">Get In Touch</p>
-          <h2 className="text-3xl md:text-5xl font-semibold text-foreground">
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-8 h-px bg-accent" />
+            <p className="text-sm tracking-widest uppercase text-accent">Get In Touch</p>
+          </div>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             Let's Explore Opportunities
           </h2>
+          <p className="text-muted-foreground text-lg max-w-xl">
+            Ready to discuss distribution, pricing, or partnership structures? Reach out today.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
