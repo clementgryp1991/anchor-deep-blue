@@ -34,7 +34,7 @@ const WhyAncSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="why-anc" className="py-24 md:py-32 px-6">
+    <section id="why-anc" className="py-24 md:py-32 px-6 border-[#b8d5ef]">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto transition-all duration-1000 ${
@@ -56,7 +56,7 @@ const WhyAncSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {reasons.map((r, i) => (
-            <div key={i} className="bg-card border border-border rounded-lg p-8 group hover:border-accent transition-colors">
+            <div key={i} className="bg-card border rounded-lg p-8 group transition-colors text-white border-white">
               <div className="border-t-2 border-accent w-12 mb-6" />
               <div className="text-foreground/80 mb-4">{r.icon}</div>
               <h3 className="text-xl font-semibold text-foreground mb-3">{r.title}</h3>
