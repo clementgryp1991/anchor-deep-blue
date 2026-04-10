@@ -20,7 +20,7 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <p className="text-sm tracking-widest uppercase text-accent mb-4">Who We Are</p>
           <h2 className="text-3xl md:text-5xl font-semibold text-foreground mb-6">
-            Connecting Manufacturers<br />and Markets Worldwide
+            Built for Global Scale
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             ANC Global Trading leverages over 30 years of sector expertise to bridge the gap

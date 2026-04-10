@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const stats = [
   { value: "14", label: "Active Markets" },
   { value: "5", label: "Continents" },
-  { value: "5", label: "Product Categories" },
+  { value: "3", label: "Product Categories" },
 ];
 
 const regions = [
