@@ -1,14 +1,19 @@
+import heroShipVideo from "@/assets/hero-ship-video-new.mp4.asset.json";
 import heroBg from "@/assets/hero-ship-bg.jpg";
 import ancLogoWhite from "@/assets/anc-logo-white.png";
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0">
-        <img
-          src={heroBg}
-          alt="Cargo ship at sunset"
+        <video
+          src={heroShipVideo.url}
+          poster={heroBg}
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
         />
       </div>
