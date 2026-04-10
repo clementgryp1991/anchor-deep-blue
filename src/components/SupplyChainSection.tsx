@@ -38,18 +38,18 @@ const SupplyChainSection = () => {
         </div>
 
         {/* Process flow */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 mb-16">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-16">
           {steps.map((step, i) => (
-            <div key={i} className="flex items-center gap-4">
-              <div className="text-center min-w-[140px]">
-                <div className="w-14 h-14 rounded-full border-2 border-accent flex items-center justify-center mx-auto mb-3">
-                  <span className="text-lg font-bold text-foreground">{i + 1}</span>
+            <div key={i} className="flex items-center gap-6">
+              <div className="text-center min-w-[160px]">
+                <div className="w-20 h-20 rounded-full border-2 border-accent flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-foreground">{i + 1}</span>
                 </div>
-                <h4 className="text-sm font-semibold text-foreground">{step.label}</h4>
-                <p className="text-xs text-muted-foreground">{step.sub}</p>
+                <h4 className="text-base font-semibold text-foreground">{step.label}</h4>
+                <p className="text-sm text-muted-foreground">{step.sub}</p>
               </div>
               {i < steps.length - 1 && (
-                <div className="hidden md:block w-16 h-px border-white bg-white" />
+                <div className="hidden md:block w-12 h-px border-white bg-white" />
               )}
             </div>
           ))}
