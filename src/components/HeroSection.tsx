@@ -19,7 +19,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto animate-fade-in-up">
         <img src={ancLogoWhite} alt="ANC Global Trading" className="h-36 md:h-48 mx-auto mb-8" />
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground mb-6">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground mb-6 uppercase">
           From the Seed<br />
           <span className="font-semibold">to the Smoke</span>
         </h1>

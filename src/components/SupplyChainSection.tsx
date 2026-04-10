@@ -17,7 +17,7 @@ const SupplyChainSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="py-24 md:py-32 px-6 bg-secondary/30">
+    <section className="py-24 md:py-32 px-6">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto transition-all duration-1000 ${
