@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.png";
+import heroBg from "@/assets/hero-ship-bg.jpg";
 import ancLogoWhite from "@/assets/anc-logo-white.png";
 
 const HeroSection = () => {
