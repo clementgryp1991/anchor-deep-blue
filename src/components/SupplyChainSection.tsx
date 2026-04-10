@@ -49,7 +49,7 @@ const SupplyChainSection = () => {
                 <p className="text-xs text-muted-foreground">{step.sub}</p>
               </div>
               {i < steps.length - 1 && (
-                <div className="hidden md:block w-16 h-px bg-border" />
+                <div className="hidden md:block w-16 h-px border-white bg-white" />
               )}
             </div>
           ))}
