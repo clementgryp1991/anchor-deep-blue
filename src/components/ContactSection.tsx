@@ -17,7 +17,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 md:py-32 px-6 bg-secondary/30">
+    <section id="contact" className="py-24 md:py-32 px-6">
       <div
         ref={ref}
         className={`max-w-6xl mx-auto transition-all duration-1000 ${
@@ -34,10 +34,6 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
           {/* Contact info */}
           <div className="space-y-8">
-            <div>
-              <h3 className="text-lg font-semibold text-foreground mb-1">Clément Gryp</h3>
-              <p className="text-muted-foreground text-sm">Managing Director</p>
-            </div>
             <div className="space-y-3">
               <a
                 href="tel:+32477410464"
@@ -60,13 +56,13 @@ const ContactSection = () => {
                 WhatsApp
               </a>
               <a
-                href="mailto:clement@ancglobaltrading.com"
+                href="mailto:info@ancglobaltrading.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors text-sm"
               >
                 <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                clement@ancglobaltrading.com
+                info@ancglobaltrading.com
               </a>
             </div>
             <div className="pt-4 border-t border-border">

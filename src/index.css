@@ -45,6 +45,28 @@
     --sidebar-border: 216 30% 18%;
     --sidebar-ring: 210 60% 40%;
   }
+
+  .section-light {
+    --section-bg: 40 33% 97%;
+    --section-fg: 216 54% 9%;
+    --section-muted-fg: 216 20% 40%;
+    --section-accent: 210 60% 24%;
+    --section-border: 220 13% 88%;
+    background-color: hsl(var(--section-bg));
+    color: hsl(var(--section-fg));
+  }
+
+  .section-light h2,
+  .section-light h3,
+  .section-light h4,
+  .section-light span {
+    color: hsl(var(--section-fg));
+  }
+
+  .section-light p,
+  .section-light li {
+    color: hsl(var(--section-muted-fg));
+  }
 }
 
 @layer base {
