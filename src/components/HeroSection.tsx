@@ -55,12 +55,12 @@ const HeroSection = () => {
             <div className="w-px h-10 bg-white/20" />
             <div className="text-center">
               <span className="text-3xl md:text-4xl font-extralight tracking-tight text-white italic">13</span>
-              <p className="text-[10px] tracking-[0.25em] uppercase text-white/50 mt-1 font-light">Active Markets</p>
+              <p className="text-[10px] tracking-[0.25em] uppercase mt-1 font-light bg-black/0 text-white">Active Markets</p>
             </div>
             <div className="w-px h-10 bg-white/20" />
             <div className="text-center">
               <span className="text-3xl md:text-4xl font-extralight tracking-tight text-white">5</span>
-              <p className="text-[10px] tracking-[0.25em] uppercase text-white/50 mt-1 font-light">Continents</p>
+              <p className="text-[10px] tracking-[0.25em] uppercase mt-1 font-light bg-black/0 text-white">Continents</p>
             </div>
           </div>
         </div>
