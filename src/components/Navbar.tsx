@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <img src={ancLogoWhite} alt="ANC Global Trading" className="h-20" />
+          <img src={ancLogoWhite} alt="ANC Global Trading" className="h-28" />
         </a>
 
         {/* Desktop */}
