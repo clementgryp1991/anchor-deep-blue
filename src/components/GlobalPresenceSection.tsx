@@ -2,7 +2,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import worldMapBg from "@/assets/world-map-bg.png";
 
 const stats = [
-  { value: "14", label: "Active Markets" },
+  { value: "13", label: "Active Markets" },
   { value: "5", label: "Continents" },
   { value: "3", label: "Product Categories" },
 ];
@@ -47,7 +47,7 @@ const GlobalPresenceSection = () => {
             Operating Across Borders
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mb-12">
-            Connecting manufacturers and markets across 5 continents with 14 active markets.
+            Connecting manufacturers and markets across 5 continents with 13 active markets.
           </p>
 
           {/* Stats */}
