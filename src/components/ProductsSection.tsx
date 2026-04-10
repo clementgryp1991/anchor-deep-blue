@@ -58,11 +58,11 @@ const ProductsSection = () => {
             <div key={i} className="bg-card border border-border rounded-lg overflow-hidden">
               {/* Dark header */}
               <div className="bg-background px-8 pt-8 pb-6">
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-3">
+                <p className="text-xs tracking-widest uppercase mb-3 text-[#f9f6f6]">
                   Product {p.number}
                 </p>
-                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">{p.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{p.description}</p>
+                <h3 className="text-2xl md:text-3xl font-bold mb-3 text-white">{p.title}</h3>
+                <p className="text-sm leading-relaxed text-white">{p.description}</p>
               </div>
 
               {/* Light body */}
