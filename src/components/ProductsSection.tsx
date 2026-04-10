@@ -57,12 +57,12 @@ const ProductsSection = () => {
           {products.map((p, i) => (
             <div key={i} className="bg-card border border-border rounded-lg overflow-hidden">
               {/* Dark header */}
-              <div className="bg-background px-8 pt-8 pb-6 text-white border-white">
-                <p className="text-xs tracking-widest uppercase mb-3 text-[#f9f6f6] bg-black/0">
+              <div className="px-8 pt-8 pb-6" style={{ backgroundColor: 'hsl(216, 54%, 9%)', color: '#ffffff' }}>
+                <p className="text-xs tracking-widest uppercase mb-3" style={{ color: '#f9f6f6' }}>
                   Product {p.number}
                 </p>
-                <h3 className="text-2xl md:text-3xl font-bold mb-3 text-white bg-[#7a2424]/0">{p.title}</h3>
-                <p className="text-sm leading-relaxed text-white bg-white/0">{p.description}</p>
+                <h3 className="text-2xl md:text-3xl font-bold mb-3" style={{ color: '#ffffff' }}>{p.title}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#ffffff' }}>{p.description}</p>
               </div>
 
               {/* Light body */}
