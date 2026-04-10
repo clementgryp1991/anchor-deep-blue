@@ -42,7 +42,7 @@ const WhyAncSection = () => {
         }`}
       >
         <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-accent mb-4">Why ANC</p>
+          <p className="text-sm tracking-widest uppercase text-foreground/60 mb-4">Why ANC</p>
           <h2 className="text-3xl md:text-5xl font-semibold text-foreground">
             Our Competitive Edge
           </h2>
