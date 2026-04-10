@@ -9,8 +9,8 @@ const steps = [
 
 const bullets = [
   "Scale ahead of regulation in emerging markets",
-  "Enter underpenetrated territories with proven products",
-  "Secure distribution before competitors arrive",
+  "Enter underpenetrated, fast-moving markets",
+  "Secure distribution before scaling volume",
 ];
 
 const SupplyChainSection = () => {
