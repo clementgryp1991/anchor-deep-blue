@@ -17,12 +17,15 @@ const AboutSection = () => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <div className="text-center mb-16">
-          <p className="text-sm tracking-widest uppercase text-accent mb-4">Who We Are</p>
-          <h2 className="text-3xl md:text-5xl font-semibold text-foreground mb-6">
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-8 h-px bg-accent" />
+            <p className="text-sm tracking-widest uppercase text-accent">Who We Are</p>
+          </div>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             Built for Global Scale
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-lg max-w-xl">
             ANC Global Trading leverages over 30 years of sector expertise to bridge the gap
             between manufacturers and untapped markets.
           </p>
