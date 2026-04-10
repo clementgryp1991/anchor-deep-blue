@@ -26,7 +26,7 @@ const HeroSection = () => {
             From the Seed<br />
             <span className="font-semibold">to the Smoke</span>
           </h1>
-          <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto mb-10 bg-black/0 text-white">
             International trading partner connecting manufacturers and markets worldwide
           </p>
 
@@ -50,7 +50,7 @@ const HeroSection = () => {
           <div className="flex items-center justify-center gap-10 md:gap-16">
             <div className="text-center">
               <span className="text-3xl md:text-4xl font-extralight tracking-tight text-white">30<span className="text-white/60">+</span></span>
-              <p className="text-[10px] tracking-[0.25em] uppercase text-white/50 mt-1 font-light">Years Experience</p>
+              <p className="text-[10px] tracking-[0.25em] uppercase mt-1 font-light bg-black/0 text-white">Years Experience</p>
             </div>
             <div className="w-px h-10 bg-white/20" />
             <div className="text-center">
