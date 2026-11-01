@@ -49,7 +49,7 @@
 
 ### 7. Contact / CTA Section
 - "Let's Explore Opportunities" headline
-- Contact details: Clément Gryp, phone/WhatsApp (+32 477 41 04 64), email
+- Contact details: info@ancglobaltrading.com
 - Simple contact form (name, company, email, message)
 - Legal footer: "ANC Global Trading is a trading name of Black Oak Global Trading FZCO"
 
