@@ -54,7 +54,7 @@ const ContactSection = () => {
             <div className="pt-4 border-t border-border">
               <p className="text-xs text-muted-foreground leading-relaxed">
                 ANC Global Trading is a trading name of<br />
-                 Black Oak Capital BV, Belgium.<br />
+                 Black Oak Global Trading - FZCO, Dubai Silicon Oasis, Dubai, UAE (Licence No. 86839).<br />
               </p>
             </div>
           </div>
